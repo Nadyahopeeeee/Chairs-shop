@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "styles": "node-sass -w C:\Users\tn\Desktop\Chairs-shop\src\scss -o C:\Users\tn\Desktop\Chairs-shop\src\css"
+    "styles": "node-sass -w ./src/scss -o ./src/css --recursive",
+    "browsersync": "browser-sync start --server --files '**/*'"
   },
   "repository": {
     "type": "git",
