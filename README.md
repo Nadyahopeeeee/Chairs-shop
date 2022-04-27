@@ -5,6 +5,11 @@
 3. git commit -m "comment"
 4. git push origin branch_name
 
+Также отдельно:
+git branch — проверка ветки
+git branch branch_name — создание новой ветки
+git checkout branch_name — переключение на ветку
+
 1. Разбить сайт на блоки:
 — header-navigation
 — header
